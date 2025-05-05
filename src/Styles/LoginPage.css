@@ -1,0 +1,50 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    margin-top: -4rem;
+}
+
+.logo-container {
+    align-self: center;
+    margin-top: -10rem;
+}
+
+.button-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    gap: 0.5rem;
+  }
+
+.password-container input {
+    padding: 1rem;
+    width: 90%;
+    border: 3px solid #BFBFBF;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    outline: none;
+    color: #000000;
+    margin-top: -1rem;
+    font-size: 1.5rem;
+
+}
+
+.password-container input:focus {
+    border: 3px solid #02E442;
+}
+
+
+.password-icon {
+    width: 14%;
+    margin-top: -0.8rem;
+    cursor: pointer;
+}

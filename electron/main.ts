@@ -28,12 +28,14 @@ let win: BrowserWindow | null
 
 function createWindow() {
   win = new BrowserWindow({
-    icon: path.join(process.env.VITE_PUBLIC, 'electron-vite.svg'),
+    icon: path.join(process.env.VITE_PUBLIC, '../src/assets/Logo.png'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.mjs'),
     },
   })
 
+  win.setMenuBarVisibility(false)
+  
   // Test active push message to Renderer-process.
   win.webContents.on('did-finish-load', () => {
     win?.webContents.send('main-process-message', (new Date).toLocaleString())
