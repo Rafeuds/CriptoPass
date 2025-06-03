@@ -69,13 +69,36 @@ body {
     align-self: left;
     width: 85%;
     padding: 0.8rem;
+    background-color: #02E442;
+    border: 3px solid #1B7519;
+    font-family: 'Jersey 10';
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    border-radius: 5px;
 }
+
+.button-login:hover {
+    background-color: #01d73d;
+}
+
 
 .button-info {
     align-self: right;
     width: 15%;
     padding: 0.8rem;
-    margin-right: 14%;
+    margin-right: 14.51%;
     margin-left: -2%;
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+    line-height: 20px;
+    border: 3px solid #BFBFBF;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #BFBFBF;
+    font-weight: bold;
+}
 
+.button-info:hover {
+    background-color: #eeeeee;
 }
