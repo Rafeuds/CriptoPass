@@ -5,12 +5,32 @@
     align-items: center;
     gap: 1rem;
     padding: 2rem;
-    margin-top: -4rem;
+    margin-top: -3rem;
 }
 
-.logo-container {
+
+
+.app-logo {
     align-self: center;
     margin-top: -10rem;
+    width: 40%;
+    min-width: 200px;
+    
+}
+
+.app-name {
+    width: 90%;
+    min-width: 600px;
+}
+
+.img-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;         
+  align-items: center;
+  gap: 3rem;      
+  min-width: min-content;         
 }
 
 

@@ -11,8 +11,11 @@ const LoginPage = () => {
 
   return (
     <div className="login-container">
-      <img src={AppName} />
-      <img src={AppLogo} className='logo-container' />
+      
+      <div className='img-wrapper'>
+      <img src={AppName} className='app-name'/>
+      <img src={AppLogo} className='app-logo' />
+      </div>
 
       <div className="password-container">
 

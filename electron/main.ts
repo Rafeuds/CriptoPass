@@ -34,9 +34,9 @@ function createWindow() {
     },
   })
 
-  win.setMenuBarVisibility(false)
+  win.setMenuBarVisibility(false) // Tira a barra de menu padrão
 
-  win.maximize();
+  win.maximize(); // Inicia a aplicação em tela cheia
   
   // Test active push message to Renderer-process.
   win.webContents.on('did-finish-load', () => {

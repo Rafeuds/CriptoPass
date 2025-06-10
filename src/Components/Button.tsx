@@ -1,5 +1,5 @@
 
-/*Componente do botão, recebe um texto e uma função que 
+/*Componente do botão, recebe um texto, um estilo CSS e uma função que 
 define o clique */ 
 
 interface Button_Props {

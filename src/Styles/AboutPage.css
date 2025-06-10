@@ -2,9 +2,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
 }
 
 .about-name{
-    width: 60%;;
+    width: 60%;
     height: max-content ;
 }
+
+.about-body{
+  background-color: #1B7519;
+  border: 15px solid #0C590B;
+  padding: 20px;
+  max-width: 750px;
+  text-align: justify;
+  color: #ffffff;
+}
+
+.about-text{
+    font-family: 'Jersey 10';
+    font-size: 1.6rem;
+}
+
+
+
