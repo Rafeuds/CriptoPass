@@ -1,3 +1,4 @@
+/*Div geral*/
 .about-container{
     display: flex;
     flex-direction: column;
@@ -5,24 +6,101 @@
     gap: 1rem;
 }
 
+/*Nome da página*/
 .about-name{
     width: 60%;
     height: max-content ;
+    min-width: 750px;
 }
 
+/*Quadro do texto  0C590B 0a4c09*/
 .about-body{
   background-color: #1B7519;
-  border: 15px solid #0C590B;
+  border: 15px solid #0a4c09;
   padding: 20px;
   max-width: 750px;
+  height: 52vh;
   text-align: justify;
   color: #ffffff;
+  overflow-y: auto;
+  padding-top: 0%;
+  padding-bottom: 0%;
 }
+
+.about-body::-webkit-scrollbar {
+    width: 22px;
+}
+
+.about-body::-webkit-scrollbar-track {
+    background: #BFBFBF;
+    border-radius: 10px;
+    border: 3px solid #0C590B;
+    
+    
+}
+
+.about-body::-webkit-scrollbar-thumb {
+    background: #0C590B;
+    border: 4px solid transparent;
+    border-radius: 10px;
+    background-clip: padding-box; 
+
+}
+
+.about-body::-webkit-scrollbar-thumb:hover {
+    background: #0a4c09;
+    border: 4px solid transparent;
+    border-radius: 10px;
+    background-clip: padding-box; 
+}
+/*
+.about-body::-webkit-scrollbar {
+    width: 15px;
+}
+
+.about-body::-webkit-scrollbar-track {
+    background: #dfdfdf;
+}
+
+.about-body::-webkit-scrollbar-thumb {
+    background: #b3b3b3;
+
+}
+
+.about-body::-webkit-scrollbar-thumb:hover {
+    background: #9f9f9f;
+
+}
+    */
 
 .about-text{
     font-family: 'Jersey 10';
     font-size: 1.6rem;
 }
+
+/*Botão de voltar*/
+.about-button{
+    align-self: left;
+    width: 15%;
+    min-width: 220px;
+    padding: 0.8rem;
+    background-color: #8EDD8D;
+    border: 3px solid #0C590B;
+    color: #02E442;
+    font-family: 'Jersey 10';
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    border-radius: 5px;
+    -webkit-text-stroke: 1px #0C590B;
+    cursor: pointer;
+}
+
+.about-button:hover {
+    background-color: #7ed67d;
+    color: #0C590B;
+}
+
 
 
 

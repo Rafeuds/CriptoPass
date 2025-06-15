@@ -13,7 +13,7 @@ const AboutPage = () => {
 
             <img src={AboutName} className='about-name' />
 
-            <Button text={'Voltar'} style='' onClick={() => changeRoute("")}></Button>
+            <Button text={'Voltar'} style='about-button' onClick={() => changeRoute("")}></Button>
 
             <div className='about-body'>
 

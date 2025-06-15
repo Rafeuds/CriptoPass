@@ -92,6 +92,7 @@
     letter-spacing: 1.5px;
     line-height: 20px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .button-login:hover {
@@ -113,6 +114,7 @@
     background-color: #FFFFFF;
     color: #BFBFBF;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .button-info:hover {
