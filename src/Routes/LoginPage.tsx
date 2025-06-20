@@ -17,7 +17,7 @@ const LoginPage = () => {
       <img src={AppLogo} className='app-logo' />
       </div>
 
-      <div className="password-container">
+      <div className="password-login-container">
 
         <div className='password-row'>
           <input type="password" placeholder="Informe a sua senha" />
